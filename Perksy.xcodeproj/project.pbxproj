@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52DE8AFD2051A046005021C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8AFC2051A046005021C0 /* AppDelegate.swift */; };
+		52DE8AFF2051A046005021C0 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8AFE2051A046005021C0 /* DatePickerViewController.swift */; };
+		52DE8B042051A046005021C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DE8B032051A046005021C0 /* Assets.xcassets */; };
+		52DE8B072051A046005021C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DE8B052051A046005021C0 /* LaunchScreen.storyboard */; };
+		52DE8B0F2051A2E0005021C0 /* MonthPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8B0E2051A2E0005021C0 /* MonthPickerViewController.swift */; };
+		52DE8B132051A4CE005021C0 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8B122051A4CE005021C0 /* Helpers.swift */; };
+		52DE8B152051AA03005021C0 /* DayPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8B142051AA03005021C0 /* DayPickerViewController.swift */; };
+		52DE8B172051AADE005021C0 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8B162051AADE005021C0 /* ItemCell.swift */; };
+		52DE8B192051ADA0005021C0 /* YearPickerViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8B182051ADA0005021C0 /* YearPickerViewContoller.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52DE8AF92051A046005021C0 /* Perksy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perksy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52DE8AFC2051A046005021C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52DE8AFE2051A046005021C0 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		52DE8B032051A046005021C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52DE8B062051A046005021C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52DE8B082051A046005021C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52DE8B0E2051A2E0005021C0 /* MonthPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthPickerViewController.swift; sourceTree = "<group>"; };
+		52DE8B122051A4CE005021C0 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
+		52DE8B142051AA03005021C0 /* DayPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPickerViewController.swift; sourceTree = "<group>"; };
+		52DE8B162051AADE005021C0 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		52DE8B182051ADA0005021C0 /* YearPickerViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPickerViewContoller.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52DE8AF62051A046005021C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52DE8AF02051A045005021C0 = {
+			isa = PBXGroup;
+			children = (
+				52DE8AFB2051A046005021C0 /* Perksy */,
+				52DE8AFA2051A046005021C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52DE8AFA2051A046005021C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52DE8AF92051A046005021C0 /* Perksy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52DE8AFB2051A046005021C0 /* Perksy */ = {
+			isa = PBXGroup;
+			children = (
+				52DE8AFC2051A046005021C0 /* AppDelegate.swift */,
+				52DE8AFE2051A046005021C0 /* DatePickerViewController.swift */,
+				52DE8B0E2051A2E0005021C0 /* MonthPickerViewController.swift */,
+				52DE8B142051AA03005021C0 /* DayPickerViewController.swift */,
+				52DE8B182051ADA0005021C0 /* YearPickerViewContoller.swift */,
+				52DE8B162051AADE005021C0 /* ItemCell.swift */,
+				52DE8B122051A4CE005021C0 /* Helpers.swift */,
+				52DE8B032051A046005021C0 /* Assets.xcassets */,
+				52DE8B052051A046005021C0 /* LaunchScreen.storyboard */,
+				52DE8B082051A046005021C0 /* Info.plist */,
+			);
+			path = Perksy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52DE8AF82051A046005021C0 /* Perksy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52DE8B0B2051A046005021C0 /* Build configuration list for PBXNativeTarget "Perksy" */;
+			buildPhases = (
+				52DE8AF52051A046005021C0 /* Sources */,
+				52DE8AF62051A046005021C0 /* Frameworks */,
+				52DE8AF72051A046005021C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Perksy;
+			productName = Perksy;
+			productReference = 52DE8AF92051A046005021C0 /* Perksy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52DE8AF12051A045005021C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Todd Olsen";
+				TargetAttributes = {
+					52DE8AF82051A046005021C0 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 52DE8AF42051A045005021C0 /* Build configuration list for PBXProject "Perksy" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52DE8AF02051A045005021C0;
+			productRefGroup = 52DE8AFA2051A046005021C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52DE8AF82051A046005021C0 /* Perksy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52DE8AF72051A046005021C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DE8B072051A046005021C0 /* LaunchScreen.storyboard in Resources */,
+				52DE8B042051A046005021C0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52DE8AF52051A046005021C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DE8AFF2051A046005021C0 /* DatePickerViewController.swift in Sources */,
+				52DE8AFD2051A046005021C0 /* AppDelegate.swift in Sources */,
+				52DE8B192051ADA0005021C0 /* YearPickerViewContoller.swift in Sources */,
+				52DE8B172051AADE005021C0 /* ItemCell.swift in Sources */,
+				52DE8B0F2051A2E0005021C0 /* MonthPickerViewController.swift in Sources */,
+				52DE8B152051AA03005021C0 /* DayPickerViewController.swift in Sources */,
+				52DE8B132051A4CE005021C0 /* Helpers.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52DE8B052051A046005021C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52DE8B062051A046005021C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52DE8B092051A046005021C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52DE8B0A2051A046005021C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52DE8B0C2051A046005021C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55SVD8WGE3;
+				INFOPLIST_FILE = Perksy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.Perksy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52DE8B0D2051A046005021C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 55SVD8WGE3;
+				INFOPLIST_FILE = Perksy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.Perksy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52DE8AF42051A045005021C0 /* Build configuration list for PBXProject "Perksy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DE8B092051A046005021C0 /* Debug */,
+				52DE8B0A2051A046005021C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52DE8B0B2051A046005021C0 /* Build configuration list for PBXNativeTarget "Perksy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52DE8B0C2051A046005021C0 /* Debug */,
+				52DE8B0D2051A046005021C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52DE8AF12051A045005021C0 /* Project object */;
+}
