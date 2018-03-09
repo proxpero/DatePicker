@@ -7,29 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52DE8AFD2051A046005021C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8AFC2051A046005021C0 /* AppDelegate.swift */; };
+		5240EB4A20523B5200F24FFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5240EB4920523B5200F24FFE /* main.m */; };
+		5270B59E20525F9200064E72 /* DateComponentsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5270B59D20525F9200064E72 /* DateComponentsPageViewController.swift */; };
+		52A5A7392052C85700B3A73A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A5A7382052C85700B3A73A /* RootViewController.swift */; };
+		52A5A73B2052DABA00B3A73A /* DateComponentLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A5A73A2052DABA00B3A73A /* DateComponentLabelViewController.swift */; };
+		52A5A73D2052E6E400B3A73A /* DatePickerCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A5A73C2052E6E400B3A73A /* DatePickerCoordinator.swift */; };
 		52DE8AFF2051A046005021C0 /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8AFE2051A046005021C0 /* DatePickerViewController.swift */; };
 		52DE8B042051A046005021C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52DE8B032051A046005021C0 /* Assets.xcassets */; };
 		52DE8B072051A046005021C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DE8B052051A046005021C0 /* LaunchScreen.storyboard */; };
-		52DE8B0F2051A2E0005021C0 /* MonthPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8B0E2051A2E0005021C0 /* MonthPickerViewController.swift */; };
 		52DE8B132051A4CE005021C0 /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8B122051A4CE005021C0 /* Helpers.swift */; };
-		52DE8B152051AA03005021C0 /* DayPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8B142051AA03005021C0 /* DayPickerViewController.swift */; };
 		52DE8B172051AADE005021C0 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8B162051AADE005021C0 /* ItemCell.swift */; };
-		52DE8B192051ADA0005021C0 /* YearPickerViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8B182051ADA0005021C0 /* YearPickerViewContoller.swift */; };
+		52DE8B1B20522964005021C0 /* DateComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8B1A20522964005021C0 /* DateComponentViewController.swift */; };
+		52DE8B67205237D6005021C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52DE8B66205237D6005021C0 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		52DE8AF92051A046005021C0 /* Perksy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Perksy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		52DE8AFC2051A046005021C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5240EB4920523B5200F24FFE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5270B59D20525F9200064E72 /* DateComponentsPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponentsPageViewController.swift; sourceTree = "<group>"; };
+		52A5A7382052C85700B3A73A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		52A5A73A2052DABA00B3A73A /* DateComponentLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponentLabelViewController.swift; sourceTree = "<group>"; };
+		52A5A73C2052E6E400B3A73A /* DatePickerCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerCoordinator.swift; sourceTree = "<group>"; };
+		52DE8AF92051A046005021C0 /* DatePicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatePicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52DE8AFE2051A046005021C0 /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
 		52DE8B032051A046005021C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52DE8B062051A046005021C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52DE8B082051A046005021C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52DE8B0E2051A2E0005021C0 /* MonthPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthPickerViewController.swift; sourceTree = "<group>"; };
 		52DE8B122051A4CE005021C0 /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
-		52DE8B142051AA03005021C0 /* DayPickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPickerViewController.swift; sourceTree = "<group>"; };
 		52DE8B162051AADE005021C0 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
-		52DE8B182051ADA0005021C0 /* YearPickerViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearPickerViewContoller.swift; sourceTree = "<group>"; };
+		52DE8B1A20522964005021C0 /* DateComponentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComponentViewController.swift; sourceTree = "<group>"; };
+		52DE8B65205237D6005021C0 /* DatePicker-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DatePicker-Bridging-Header.h"; sourceTree = "<group>"; };
+		52DE8B66205237D6005021C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52DE8B6820523828005021C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +54,7 @@
 		52DE8AF02051A045005021C0 = {
 			isa = PBXGroup;
 			children = (
-				52DE8AFB2051A046005021C0 /* Perksy */,
+				52DE8AFB2051A046005021C0 /* DatePicker */,
 				52DE8AFA2051A046005021C0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,34 +62,39 @@
 		52DE8AFA2051A046005021C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				52DE8AF92051A046005021C0 /* Perksy.app */,
+				52DE8AF92051A046005021C0 /* DatePicker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		52DE8AFB2051A046005021C0 /* Perksy */ = {
+		52DE8AFB2051A046005021C0 /* DatePicker */ = {
 			isa = PBXGroup;
 			children = (
-				52DE8AFC2051A046005021C0 /* AppDelegate.swift */,
+				52DE8B6820523828005021C0 /* AppDelegate.h */,
+				52DE8B66205237D6005021C0 /* AppDelegate.m */,
+				52A5A7382052C85700B3A73A /* RootViewController.swift */,
+				52A5A73C2052E6E400B3A73A /* DatePickerCoordinator.swift */,
 				52DE8AFE2051A046005021C0 /* DatePickerViewController.swift */,
-				52DE8B0E2051A2E0005021C0 /* MonthPickerViewController.swift */,
-				52DE8B142051AA03005021C0 /* DayPickerViewController.swift */,
-				52DE8B182051ADA0005021C0 /* YearPickerViewContoller.swift */,
+				52A5A73A2052DABA00B3A73A /* DateComponentLabelViewController.swift */,
+				5270B59D20525F9200064E72 /* DateComponentsPageViewController.swift */,
+				52DE8B1A20522964005021C0 /* DateComponentViewController.swift */,
 				52DE8B162051AADE005021C0 /* ItemCell.swift */,
 				52DE8B122051A4CE005021C0 /* Helpers.swift */,
 				52DE8B032051A046005021C0 /* Assets.xcassets */,
 				52DE8B052051A046005021C0 /* LaunchScreen.storyboard */,
 				52DE8B082051A046005021C0 /* Info.plist */,
+				52DE8B65205237D6005021C0 /* DatePicker-Bridging-Header.h */,
+				5240EB4920523B5200F24FFE /* main.m */,
 			);
-			path = Perksy;
+			path = DatePicker;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		52DE8AF82051A046005021C0 /* Perksy */ = {
+		52DE8AF82051A046005021C0 /* DatePicker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 52DE8B0B2051A046005021C0 /* Build configuration list for PBXNativeTarget "Perksy" */;
+			buildConfigurationList = 52DE8B0B2051A046005021C0 /* Build configuration list for PBXNativeTarget "DatePicker" */;
 			buildPhases = (
 				52DE8AF52051A046005021C0 /* Sources */,
 				52DE8AF62051A046005021C0 /* Frameworks */,
@@ -91,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = Perksy;
+			name = DatePicker;
 			productName = Perksy;
-			productReference = 52DE8AF92051A046005021C0 /* Perksy.app */;
+			productReference = 52DE8AF92051A046005021C0 /* DatePicker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -108,11 +121,12 @@
 				TargetAttributes = {
 					52DE8AF82051A046005021C0 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 52DE8AF42051A045005021C0 /* Build configuration list for PBXProject "Perksy" */;
+			buildConfigurationList = 52DE8AF42051A045005021C0 /* Build configuration list for PBXProject "DatePicker" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				52DE8AF82051A046005021C0 /* Perksy */,
+				52DE8AF82051A046005021C0 /* DatePicker */,
 			);
 		};
 /* End PBXProject section */
@@ -147,12 +161,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5240EB4A20523B5200F24FFE /* main.m in Sources */,
 				52DE8AFF2051A046005021C0 /* DatePickerViewController.swift in Sources */,
-				52DE8AFD2051A046005021C0 /* AppDelegate.swift in Sources */,
-				52DE8B192051ADA0005021C0 /* YearPickerViewContoller.swift in Sources */,
+				52DE8B67205237D6005021C0 /* AppDelegate.m in Sources */,
+				52A5A7392052C85700B3A73A /* RootViewController.swift in Sources */,
 				52DE8B172051AADE005021C0 /* ItemCell.swift in Sources */,
-				52DE8B0F2051A2E0005021C0 /* MonthPickerViewController.swift in Sources */,
-				52DE8B152051AA03005021C0 /* DayPickerViewController.swift in Sources */,
+				52DE8B1B20522964005021C0 /* DateComponentViewController.swift in Sources */,
+				5270B59E20525F9200064E72 /* DateComponentsPageViewController.swift in Sources */,
+				52A5A73B2052DABA00B3A73A /* DateComponentLabelViewController.swift in Sources */,
+				52A5A73D2052E6E400B3A73A /* DatePickerCoordinator.swift in Sources */,
 				52DE8B132051A4CE005021C0 /* Helpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,13 +298,18 @@
 		52DE8B0C2051A046005021C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 55SVD8WGE3;
-				INFOPLIST_FILE = Perksy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DatePicker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.Perksy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.DatePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/DatePicker/DatePicker-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,13 +318,17 @@
 		52DE8B0D2051A046005021C0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 55SVD8WGE3;
-				INFOPLIST_FILE = Perksy/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DatePicker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.Perksy;
+				PRODUCT_BUNDLE_IDENTIFIER = com.proxpero.DatePicker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/DatePicker/DatePicker-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,7 +337,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		52DE8AF42051A045005021C0 /* Build configuration list for PBXProject "Perksy" */ = {
+		52DE8AF42051A045005021C0 /* Build configuration list for PBXProject "DatePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52DE8B092051A046005021C0 /* Debug */,
@@ -320,7 +346,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		52DE8B0B2051A046005021C0 /* Build configuration list for PBXNativeTarget "Perksy" */ = {
+		52DE8B0B2051A046005021C0 /* Build configuration list for PBXNativeTarget "DatePicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				52DE8B0C2051A046005021C0 /* Debug */,

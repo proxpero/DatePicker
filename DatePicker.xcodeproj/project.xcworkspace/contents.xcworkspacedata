@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Perksy.xcodeproj">
+      location = "self:/Users/proxpero/Code/Perksy/DatePicker.xcodeproj">
    </FileRef>
 </Workspace>

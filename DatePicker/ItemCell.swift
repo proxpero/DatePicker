@@ -9,7 +9,8 @@ final class ItemCell: UICollectionViewCell {
             }
         }
     }
-    private let itemLabel: UILabel
+    
+    let itemLabel: UILabel
 
     override init(frame: CGRect) {
 
@@ -22,9 +23,6 @@ final class ItemCell: UICollectionViewCell {
         itemLabel.layer.borderWidth = 1
         itemLabel.clipsToBounds = true
         itemLabel.textAlignment = .center
-        itemLabel.backgroundColor = .blue
-        itemLabel.textColor = .white
-
         contentView.addSubview(itemLabel)
         contentView.constrainEdges(to: itemLabel)
 
